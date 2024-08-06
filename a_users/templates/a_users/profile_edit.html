@@ -20,7 +20,7 @@
     {{ form.as_p }}
     <button type="submit" >Submit</button>
     {% if onboarding %}
-    <a class="button button-gray ml-1" href="{% url 'home' %}">Skip</a>
+    <a class="button button-gray ml-1" href="{% url 'chat' %}">Skip</a>
     {% else %}
     <a class="button button-gray ml-1" href="{{ request.META.HTTP_REFERER }}">Cancel</a>
     {% endif %}

@@ -1,16 +1,27 @@
-<div class="fade-in-text">
+<div id="chat_messages" hx-swap-oob="beforeend">
+
+
+  <div class="fade-in-text">
     {% include "chichat/chat_messages.html" %}
+  </div>
+
+
+  <style>
+    .fade-in-text {
+      animation: fadeIn 3s;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+  <script>scrollToBottom()</script>
+
+
 </div>
-
-
-<style>
-.fade-in-text {
-  animation: fadeIn 3s;
-}
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-</style>
-<script>scrollToBottom()</script>
