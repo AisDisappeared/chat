@@ -17,6 +17,7 @@ ChiChat is a real-time chat application built with Django Channels and WebSocket
 - Django
 - Django Channels
 - Tailwind CSS cdn
+- daphne
 
 ## Installation
 
