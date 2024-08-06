@@ -2,7 +2,7 @@
 
 ## Overview
 
-Chat App is a real-time chat application built with Django Channels and WebSockets. This project provides a modern and responsive chat interface using Tailwind CSS for styling. The app also leverages Hyperscript and HTMX for enhanced interactivity, and features the Jazzmin Django admin panel for an improved admin experience.
+ChiChat is a real-time chat application built with Django Channels and WebSockets. This project provides a modern and responsive chat interface using Tailwind CSS for styling. The app also leverages Hyperscript and HTMX for enhanced interactivity, and features the Jazzmin Django admin panel for an improved admin experience.
 
 ## Features
 
