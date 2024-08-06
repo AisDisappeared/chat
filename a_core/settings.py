@@ -41,11 +41,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django_cleanup.apps.CleanupConfig',
     'django.contrib.sites',
+
+
+    # My apps and 3rd party apps 
     'allauth',
     'allauth.account',
     'django_htmx',
     'a_home',
     'a_users',
+    'chichat',
 ]
 
 SITE_ID = 1
